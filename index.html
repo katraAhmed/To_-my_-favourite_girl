@@ -37,7 +37,30 @@
             text-align: center;
             font-size: 0.85rem;
             color: #a06d7b;
+            margin-bottom: 20px;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #ffeef4 0%, #ffd0e4 100%);
+            border: 2px solid #ffb3d1;
+            border-radius: 20px;
+            padding: 20px;
             margin-bottom: 25px;
+            box-shadow: 0 8px 20px rgba(216, 90, 127, 0.15);
+            text-align: left;
+        }
+        .highlight-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #d85a7f;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .highlight-text {
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: #4a3b40;
         }
         .letter-btn {
             background-color: #ffffff;
@@ -81,7 +104,15 @@
     </div>
 
     <h1>To my favourite girl kadzo 💘</h1>
-    <div class="subtitle">little notes for whenever you need them ✨</div>
+    <div class="subtitle">a special note for you ✨</div>
+
+    <!-- Highlighted Heartfelt Message Box -->
+    <div class="highlight-box">
+        <div class="highlight-title">✨ How you make me feel ❤️</div>
+        <div class="highlight-text">
+            These past few months have honestly been the best experience and the best moments of my life. I really feel loved and valued here. You’re the main reason I look forward to waking up every single day just to talk to you. I don’t usually get emotional like this, but with you, I get all these crazy, good feelings that I can’t even explain 🤷‍♀️😭... I genuinely love every single part of you that I’ve gotten to know and learn, and I am at where I wanna be. Thank you for giving me your time, thank you for making the effort to travel and come see me, and thank you for everything you do. I really want to spend the next 83 years with you 😭 I love it here so much.
+        </div>
+    </div>
 
     <button class="letter-btn" onclick="toggle('l1')">Open when you miss me 💭</button>
     <div id="l1" class="content">
@@ -133,11 +164,6 @@
         These past 3 months have been unmatched. You’ve quickly become my absolute favorite person, and I’m just so proud of who you are and everything you do. 💘
     </div>
 
-    <button class="letter-btn" onclick="toggle('l11')">✨ Open when you want to know how much you changed my life</button>
-    <div id="l11" class="content">
-        These past few months have honestly been the best experience and the best moments of my life. I really feel loved and valued here. You’re the main reason I look forward to waking up every single day just to talk to you. I don’t usually get emotional like this, but with you, I get all these crazy, good feelings that I can’t even explain 🤷‍♀️😭... I genuinely love every single part of you that I’ve gotten to know and learn, and I am at where I wanna be. Thank you for giving me your time, thank you for making the effort to travel and come see me, and thank you for everything you do. I really want to spend the next 83 years with you 😭 I love it here so much.
-    </div>
-
     <script>
         function toggle(id) {
             var element = document.getElementById(id);
@@ -150,3 +176,5 @@
     </script>
 </body>
 </html>
+
+        
